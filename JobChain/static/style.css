@@ -155,11 +155,19 @@ body{
     height: 512px;
     object-fit: contain;
     margin-left: 1168px;
-
-    
 }
-
-
+.pic_landing-page_3{
+    width: 512px;
+    height: 404px;
+    object-fit: contain;
+    margin-left: 243px;
+}
+.pic_landing-page_4{
+    width: 512px;
+    height: 512px;
+    object-fit: contain;
+    margin-left: 1168px;
+}
 #email{
     width: 562px;
     height: 76px;
