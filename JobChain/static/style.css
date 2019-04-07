@@ -1,0 +1,251 @@
+body{
+    display: block;
+    width: 1920px;
+    height: 4115px;
+    margin:0px;
+    padding:0px;
+}
+.header{
+    width: 1920px;
+    height: 88px;
+    background-color: #efad3b;
+}
+.headtitle{
+    width: 615px;
+    height: 56px;
+    font-family: Silom;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+
+    letter-spacing: 4px;
+    text-align: left;
+    color: #5b4016;
+    padding-right: 653px;
+    padding-left: 653px;
+    padding-top: 0px;
+    position: absolute;
+}
+
+.no_margin_2kLZ4 {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.content{
+    width: 1920px;
+    height: 3817px;
+
+}
+.content-title{
+
+    height: 84px;
+    font-family: Silom;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #5b4016;
+    padding-top: 137px;
+}
+.content-chain{
+    height: 56px;
+    font-family: Silom;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #5b4016;
+    padding-top: 34px;
+}
+.start_button{
+    width: 227px;
+    height: 65.4px;
+    border-radius: 43px;
+    background-color: #efad3b;
+    margin-left: 847px;
+    display:inline-block;
+    position:relative;
+    vertical-align:middle;
+    text-decoration:none;
+}
+.start_button_font{
+
+    height: 42px;
+    font-family: Silom;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: 3px;
+    text-align:center;
+    color: #ffffff;
+    
+}
+.pic_landing-page_1{
+    padding-top: 88px;
+    width: 490.8px;
+    height: 490.8px;
+    object-fit: contain;
+    margin-left: 715px;
+}
+.week-font{
+    width: 400px;
+    height: 70px;
+    font-family: Silom;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #5b4016;
+    padding-left: 138px;
+    padding-top: 229.5px;
+    
+}
+.week-fon{
+   
+    width: 400px;
+    height: 70px;
+    font-family: Silom;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 5px;
+    text-align: right;
+    color: #5b4016;
+    padding-left: 1105px;
+    padding-top: 229.5px;
+        
+    
+}
+.week-font-Description{
+    width: 742px;
+    height: 79px;
+    opacity: 0.81;
+    font-family: Silom;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 2.5px;
+    text-align: left;
+    color: #5b4016;
+    padding-left: 138px;
+    padding-top: 331.5px;
+    
+}
+.pic_landing-page_2{
+    
+    width: 512px;
+    height: 512px;
+    object-fit: contain;
+    margin-left: 1168px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 1920px;
+    height: 210px;
+    background-color: #efad3b;
+    text-decoration-line: none;
+    padding: 0px;
+    margin: 0px;
+}
+.foot_policy{
+    width: 112px;
+    height: 28px;
+    font-family: Silom;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #5b4016;
+    margin-left: 313.2px;
+    margin-top: 44px;
+    text-decoration-line: none;
+    display: inline-block;
+    
+}
+.foot_invite{
+    width: 160px;
+    height: 28px;
+    font-family: Silom;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #5b4016;
+    margin-left: 606.6px;
+    display: inline-block;
+    text-decoration-line: none;
+}
+.foot_mail{
+    width: 365px;
+    height: 78px;
+    font-family: Silom;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #5b4016;
+    display: inline-block;
+    margin-left: 313.2px;
+    margin-top: 40px;
+    text-decoration-line: none;
+}
+.foot_fb{
+    width: 511px;
+    height: 122px;
+    font-family: Silom;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: 4.5px;
+    text-align: left;
+    color: #5b4016;
+    display: inline-block;
+    margin-left: 350px;
+    
+    text-decoration-line: none;
+}
