@@ -160,8 +160,23 @@ body{
 }
 
 
-
-
+#email{
+    width: 562px;
+    height: 76px;
+    border-radius: 38px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    margin-left: 679px;
+    margin-top: 34px;
+}
+.back_to_top{
+    width: 58.5px;
+    height: 58.5px;
+    border-radius: 29.25px;
+    background-color: #efad3b;
+    margin-left: 930.5px;
+    margin-top: 101.4px;
+}
 
 
 
