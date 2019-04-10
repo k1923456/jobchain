@@ -79,7 +79,7 @@ body{
 }
 .start_button_font{
 
-    height: 42px;
+    height: 63px;
     font-family: Silom;
     font-size: 30px;
     font-weight: normal;
@@ -110,9 +110,22 @@ body{
     letter-spacing: 5px;
     text-align: left;
     color: #5b4016;
-    padding-left: 138px;
-    padding-top: 229.5px;
     
+    
+}
+.week_para{
+    width: 742px;
+    height: 79px;
+    opacity: 0.81;
+    font-family: Silom;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: 2.5px;
+    text-align: left;
+    color: #5b4016;
 }
 .week-fon{
    
@@ -256,7 +269,7 @@ footer{
     text-decoration-line: none;
 }
 .foot_fb{
-    width: 511px;
+    width: 700px;
     height: 122px;
     font-family: Silom;
     font-size: 30px;
@@ -271,4 +284,10 @@ footer{
     margin-left: 350px;
     
     text-decoration-line: none;
+}
+.footfbimg{
+    display: inline-block;
+}
+.footmailimg{
+    display: inline-block;
 }

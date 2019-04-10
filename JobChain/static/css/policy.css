@@ -14,7 +14,7 @@ body{
     width: 1920px;
     height: 1896px;
     background-color: #ffffff;
-
+    
 }
 .contents_block{
     width: 1726px;
@@ -34,5 +34,5 @@ body{
     line-height: 1.2;
     letter-spacing: normal;
     color: #707070;
-    padding-left: 97px;
+    padding-left: 200px;
 }
