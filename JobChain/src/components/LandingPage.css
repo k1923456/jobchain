@@ -16,23 +16,35 @@ a {
   color: #42b983;
 }
 
-.navbar {
+#navbar-block {
+  width: 100%;
   background-color: #efad3b;
   margin-bottom: 137px;
   text-align: center;
 }
 
-.engtext {
-  font-family: 'Times New Roman', Times, serif;
+@font-face {
+  font-family: 'Font-English';
+  src: url('../assets/font/English/silom-webfont.woff2');
+}
+
+.text-english {
+  font-family: 'Font-English';
   color: #5b4016;
 }
 
-.chitext {
-  font-family: 'DFKai-sb';
+
+@font-face {
+  font-family: 'Font-Chinese';
+  src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Regular.ttf');
+}
+
+.text-chinese {
+  font-family: 'Font-Chinese';
   color: #5b4016;
 }
 
-.font_size_nav {
+.g-font-size {
   font-size: 40px;
 }
 
@@ -53,7 +65,7 @@ a {
   text-align: center;
 }
 
-.div_top_svg_1 {
+#top_svg_1 {
   width: 490.8px;
   height: 490.8px;
   display: block;
@@ -63,25 +75,25 @@ a {
   object-fit: contain;
 }
 
-.div_top_svg_2 {
+#top_svg_2 {
   width: 512px;
   height: 512px;
-  float: right;
   object-fit: contain;
+  display: block;
 }
 
-.div_top_svg_3 {
+#top_svg_3 {
   width: 512px;
   height: 404px;
-  float: left;
   object-fit: contain;
+  display: block;
 }
 
-.div_top_svg_4 {
+#top_svg_4 {
   width: 512px;
   height: 512px;
-  float: right;
   object-fit: contain;
+  display: block;
 }
 
 .margin_top_word1 {
