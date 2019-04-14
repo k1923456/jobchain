@@ -14,6 +14,8 @@ li {
 
 a {
   color: #42b983;
+  text-decoration: none;
+
 }
 
 #navbar-block {
@@ -33,7 +35,6 @@ a {
   color: #5b4016;
 }
 
-
 @font-face {
   font-family: 'Font-Chinese';
   src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Regular.ttf');
@@ -52,18 +53,47 @@ a {
   font-size: 60px;
 }
 
-.font_size_top_button {
-  font-size: 30px;
-}
-
-.top_button {
+#top_button {
   width: 227px;
   height: 65.4px;
+  font-size: 30px;
+  display: inline-block;
   padding: 11.7px 42px 11.7px 42px;
   border-radius: 43px;
   background-color: #efad3b;
+  color: #ffffff;
   text-align: center;
+  line-height: 65.4px;
+  margin-bottom: 90px;
 }
+
+#bottom_button {
+  width: 342px;
+  height: 97.9px;
+  font-size: 30px;
+  display: inline-block;
+  padding: 11.7px 42px 11.7px 42px;
+  border-radius: 65px;
+  background-color: #efad3b;
+  color: #ffffff;
+  text-align: center;
+  line-height: 97.9px;
+  margin-top: 191px;
+}
+
+#arrow_button {
+  width: 58.5px;
+  height: 58.5px;
+  font-size: 30px;
+  display: inline-block;
+  padding: 11.7px 42px 11.7px 42px;
+  border-radius: 43px;
+  background-color: #efad3b;
+  color: #ffffff;
+  text-align: center;
+  line-height: 58.5px;
+}
+
 
 #top_svg_1 {
   width: 490.8px;
@@ -73,6 +103,22 @@ a {
   margin-right: auto;
   width: 50%;
   object-fit: contain;
+}
+
+.left_hr {
+  width: 75%;
+  border: 2px solid #efad3b;
+  margin-top: 94.7px;
+  margin-left: 0;
+  text-align: right;
+}
+
+.right_hr {
+  width: 75%;
+  border: 2px solid #efad3b;
+  margin-top: 94.7px;
+  margin-right: 0;
+  text-align: left;
 }
 
 #top_svg_2 {
@@ -102,8 +148,4 @@ a {
 
 .margin_top_word2 {
   margin-bottom: 54.6px;
-}
-
-.color_top_button {
-  color: #ffffff;
 }
