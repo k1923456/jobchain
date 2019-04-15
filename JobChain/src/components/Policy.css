@@ -1,14 +1,40 @@
-body {
-  display: block;
-  width: 1920px;
-  height: 4115px;
-  margin: 0px;
-  padding: 0px;
+
+@font-face {
+  font-family: 'Font-English';
+  src: url('../assets/font/English/silom-webfont.woff2');
+}
+
+.text-english {
+  font-family: 'Font-English';
+  font-weight: normal;
+  color: #5b4016;
+}
+
+@font-face {
+  font-family: 'Font-Chinese';
+  src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+.text-chinese {
+  font-family: 'Font-Chinese';
+  font-weight: bold;
+  color: #5b4016;
+  white-space: nowrap;
+}
+
+#navbar-block {
+  width: 100%;
+  background-color: #efad3b;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.g-font-size {
+  font-size: 40px;
 }
 
 .header {
-  width: 1920px;
-  height: 88px;
+  width: 100%;
   background-color: #efad3b;
 }
 
@@ -69,224 +95,60 @@ body {
   padding-top: 34px;
 }
 
-.start_button {
-  width: 227px;
-  height: 65.4px;
+.start_button_font {
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  display: inline-block;
   border-radius: 43px;
   background-color: #efad3b;
-  margin-left: 847px;
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-.start_button_font {
-  height: 63px;
-  font-family: Silom;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: 3px;
-  text-align: center;
   color: #ffffff;
+  text-align: center;
+  line-height: 70px;
 }
 
-.pic_landing-page_1 {
-  padding-top: 88px;
-  width: 490.8px;
-  height: 490.8px;
-  object-fit: contain;
-  margin-left: 715px;
+#mail-icon {
+  width: 60%;
+  height: 60%;
 }
 
-.week-font {
-  width: 400px;
-  height: 70px;
-  font-family: Silom;
-  font-size: 50px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 5px;
-  text-align: left;
-  color: #5b4016;
+#fb-icon {
+  width: 60%;
+  height: 60%;
 }
 
-.week_para {
-  width: 742px;
-  height: 79px;
-  opacity: 0.81;
-  font-family: Silom;
-  font-size: 25px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 2.5px;
-  text-align: left;
-  color: #5b4016;
-}
-
-.week-fon {
-  width: 400px;
-  height: 70px;
-  font-family: Silom;
-  font-size: 50px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 5px;
-  text-align: right;
-  color: #5b4016;
-  padding-left: 1105px;
-  padding-top: 229.5px;
-}
-
-.week-font-Description {
-  width: 742px;
-  height: 79px;
-  opacity: 0.81;
-  font-family: Silom;
-  font-size: 25px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 2.5px;
-  text-align: left;
-  color: #5b4016;
-  padding-left: 138px;
-  padding-top: 331.5px;
-}
-
-.pic_landing-page_2 {
-  width: 512px;
-  height: 512px;
-  object-fit: contain;
-  margin-left: 1168px;
-}
-
-.pic_landing-page_3 {
-  width: 512px;
-  height: 404px;
-  object-fit: contain;
-  margin-left: 243px;
-}
-
-.pic_landing-page_4 {
-  width: 512px;
-  height: 512px;
-  object-fit: contain;
-  margin-left: 1168px;
-}
-
-#email {
-  width: 562px;
-  height: 76px;
-  border-radius: 38px;
-  border: solid 1px #707070;
-  background-color: #ffffff;
-  margin-left: 679px;
-  margin-top: 34px;
-}
-
-.back_to_top {
-  width: 58.5px;
-  height: 58.5px;
-  border-radius: 29.25px;
+#footer-block {
+  width: 100%;
   background-color: #efad3b;
-  margin-left: 930.5px;
-  margin-top: 101.4px;
+  padding: 30px 0 30px 0;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
-footer {
-  width: 1920px;
-  height: 210px;
-  background-color: #efad3b;
-  text-decoration-line: none;
-  padding: 0px;
-  margin: 0px;
+#footer-left-block {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-right: 200px;
 }
 
-.foot_policy {
-  width: 112px;
-  height: 28px;
-  font-family: Silom;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: 3px;
-  text-align: left;
-  color: #5b4016;
-  margin-left: 313.2px;
-  margin-top: 44px;
-  text-decoration-line: none;
-  display: inline-block;
+#footer-right-block {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
-.foot_invite {
-  width: 160px;
-  height: 28px;
-  font-family: Silom;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: 3px;
-  text-align: left;
-  color: #5b4016;
-  margin-left: 606.6px;
-  display: inline-block;
-  text-decoration-line: none;
+#footer-left-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.foot_mail {
-  width: 365px;
-  height: 78px;
-  font-family: Silom;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: 3px;
-  text-align: left;
-  color: #5b4016;
-  display: inline-block;
-  margin-left: 313.2px;
-  margin-top: 40px;
-  text-decoration-line: none;
-}
-
-.foot_fb {
-  width: 700px;
-  height: 122px;
-  font-family: Silom;
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: 4.5px;
-  text-align: left;
-  color: #5b4016;
-  display: inline-block;
-  margin-left: 350px;
-  text-decoration-line: none;
-}
-
-.footfbimg {
-  display: inline-block;
-}
-
-.footmailimg {
-  display: inline-block;
+#footer-right-fb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

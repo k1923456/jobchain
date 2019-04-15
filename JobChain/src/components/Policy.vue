@@ -1,12 +1,12 @@
 <template>
   <div id='policy'>
-    <div class='header'>
-      <h1 class='headtitle'>&nbsp;Jobchain 跨業人才交流計畫</h1>
+    <div id='navbar-block'>
+      <span class='text-english g-font-size'>Jobchain </span><span class='text-chinese g-font-size'>跨界人才交流計畫</span>
     </div>
     <div class='contents_'>
       <div
         class='contents_block'
-        style='width:1726px;height:1566px;margin-top: 91px;margin-left: 97px;'
+        style='width:100%;margin-top: 91px;margin-left: 3%;text-align: left;'
       >
         <p class='policy_content'>
           隱私政策<br><br>
@@ -59,48 +59,72 @@
         class='start_button'
         style='margin-top:86.6px;width: 142.6px; height: 65.4px; border-radius: 43px;'
       >
-        <h1 class='start_button_font'>返回</h1>
+        <h1 class='start_button_font text-chinese'>返回</h1>
       </router-link>
     </div>
-    <footer style='margin-top:87px;'>
-      <div class='foot'>
-        <router-link
-          to='/policy'
-          class='foot_policy'
-        >/ 隱私政策</router-link>
-        <a
-          href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
-          class='foot_invite'
-          target='_blank'
-        >/ 加入VIP社團</a>
+    <div id='footer-block'>
+      <div id='footer-left-block'>
+        <div>
+          <router-link
+            to='/policy'
+            class='text-chinese'
+          >/ 隱私政策</router-link>
+        </div>
+
+        <div><a
+            class='text-chinese'
+            href='mailto:Jobchain2019@gmail.com'
+          >/ 聯絡我們</a>
+        </div>
+        <div id='footer-left-mail'>
+          <div>
+            <a
+              class='text-english'
+              href='mailto:Jobchain2019@gmail.com'
+            >jobchain2019@gmail.com</a>
+          </div>
+          <a
+            href='mailto:Jobchain2019@gmail.com'
+            target='_blank'
+          >
+            <img
+              id='mail-icon'
+              src='@/assets/svg/btn_footer_icon_mail_normal.svg'
+            />
+          </a>
+        </div>
       </div>
-      <div class='foot'>
-        <router-link
-          to='/policy'
-          href='policy.html'
-          class='foot_policy'
-        >/ 關於我們</router-link>
+
+      <div id='footer-right-block'>
+        <div>
+          <a
+            class='text-chinese'
+            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            target='_blank'
+          >/ 加入<span class='text-english'>VIP</span>社團</a>
+        </div>
+
+        <div id='footer-right-fb'>
+          <div>
+            <a
+              class='text-chinese'
+              href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+              target='_blank'
+            ><span class='text-english'>Jobchain</span>跨業人才交流平台 / </a>
+          </div>
+          <a
+            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            target='_blank'
+          >
+            <img
+              id='fb-icon'
+              src='@/assets/svg/bnt_footer_icon_fbgroup_normal.svg'
+            />
+          </a>
+        </div>
       </div>
-      <div class='foot'>
-        <a
-          href='policy.html'
-          class='foot_mail'
-        >jobchain2019@gmail.com <img
-            src='@/assets/svg/btn_footer_icon_mail_normal.svg'
-            alt='mail'
-            class='footmailimg'
-          ></a>
-        <a
-          href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
-          class='foot_fb'
-          target='_blank'
-        >Jobchain跨業人才交流平台 /<img
-            src='@/assets/svg/bnt_footer_icon_fbgroup_normal.svg'
-            alt='facebook'
-            class='footfbimg'
-          /></a>
-      </div>
-    </footer>
+
+    </div>
   </div>
 </template>
 
