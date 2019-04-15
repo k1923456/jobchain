@@ -130,6 +130,7 @@ a {
   height: 404px;
   object-fit: contain;
   display: block;
+  margin-right: 50px;
 }
 
 #top_svg_4 {
@@ -137,16 +138,6 @@ a {
   height: 512px;
   object-fit: contain;
   display: block;
-}
-
-#mail-icon {
-  width: 60%;
-  height: 60%;
-}
-
-#fb-icon {
-  width: 60%;
-  height: 60%;
 }
 
 .margin_top_word1 {
@@ -197,6 +188,16 @@ a {
   margin-top: 64.5px;
   align-items: center;
   justify-content: space-between;
+}
+
+#mail-icon {
+  width: 60%;
+  height: 60%;
+}
+
+#fb-icon {
+  width: 60%;
+  height: 60%;
 }
 
 #footer-block {

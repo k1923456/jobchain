@@ -69,7 +69,7 @@
     <hr class='left_hr' />
 
     <div class='block'>
-      <div class='right-text'>
+      <div class='left-text'>
         <p class='subtitle text-chinese'>
           跨業人才交流會<br>
           <span class='text-chinese subtext'>
@@ -164,7 +164,7 @@
         </div>
       </div>
     </div>
-    
+
   </div>
 </template>
 
