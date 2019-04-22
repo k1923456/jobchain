@@ -1,0 +1,74 @@
+diff --git a/JobChain/src/components/LandingPage.vue b/JobChain/src/components/LandingPage.vue
+index 7bc2d0d..07c246e 100644
+--- a/JobChain/src/components/LandingPage.vue
++++ b/JobChain/src/components/LandingPage.vue
+@@ -5,41 +5,43 @@
+     </div>
+ 
+     <div>
+-      <div class='margin_top_word1'>
+-        <span class='text-english font_size_top1'>建立我的專業人脈網</span>
++      <div>
++        <div class='margin_top_word1'>
++          <span class='text-english font_size_top1'>建立我的專業人脈網</span>
++        </div>
++        <div class='margin_top_word2'>
++          <p class='text-chinese g-font-size'>
++            發揮所長，讓專業<span class='text-english g-font-size'>Chain</span>在一起
++          </p>
++        </div>
+       </div>
+-      <div class='margin_top_word2'>
+-        <p class='text-chinese g-font-size'>
+-          發揮所長，讓專業<span class='text-english g-font-size'>Chain</span>在一起
+-        </p>
++
++      <div>
++        <span class='top_button text-chinese font_size_top_button color_top_button'>開始交流</span>
+       </div>
+-    </div>
+ 
+-    <div>
+-      <span class='top_button text-chinese font_size_top_button color_top_button'>開始交流</span>
+-    </div>
++      <div id='top_svg_1'>
++        <img src='@/assets/svg/pic_landing_page_1.svg' />
++      </div>
+ 
+-    <div id='top_svg_1'>
+-      <img src='@/assets/svg/pic_landing_page_1.svg' />
+-    </div>
++      <hr class='left_hr' />
+ 
+-    <hr class='left_hr' />
++      <div class=''>
++        <p class='text-chinese'>
++          每週人才推薦
++        </p>
++        <p class='text-chinese'>
++          <span class='text-english'>Chain-up</span>將於每週推薦一位跨業人才給您做交流， 讓您輕鬆建立自己的專業人脈網。
++        </p>
++      </div>
+ 
+-    <div class=''>
+-      <p class='text-chinese'>
+-        每週人才推薦
+-      </p>
+-      <p class='text-chinese'>
+-        <span class='text-english'>Chain-up</span>將於每週推薦一位跨業人才給您做交流， 讓您輕鬆建立自己的專業人脈網。
+-      </p>
+-    </div>
++      <div id='top_svg_2'>
++        <img src='@/assets/svg/pic_landing_page_2.svg' />
++      </div>
+ 
+-    <div id='top_svg_2'>
+-      <img src='@/assets/svg/pic_landing_page_2.svg' />
++      <hr class='right_hr' />
+     </div>
+ 
+-    <hr class='right_hr' />
+-
+     <div class=''>
+       <p class='text-chinese'>
+         與跨業人才合作

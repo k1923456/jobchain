@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: 'Font-English';
+  src: url('../assets/font/English/silom-webfont.woff2');
+}
+
+.text-english {
+  font-family: 'Font-English';
+  font-weight: normal;
+  color: #5b4016;
+}
+
+@font-face {
+  font-family: 'Font-Chinese';
+  src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+.text-chinese {
+  font-family: 'Font-Chinese';
+  font-weight: bold;
+  color: #5b4016;
+  white-space: nowrap;
+}
+
+#navbar-block {
+  width: 100%;
+  background-color: #efad3b;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.g-font-size {
+  font-size: 40px;
+}
+
+.header {
+  width: 100%;
+  background-color: #efad3b;
+}
+
+.headtitle {
+  width: 615px;
+  height: 56px;
+  font-family: Silom;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #5b4016;
+  padding-right: 653px;
+  padding-left: 653px;
+  padding-top: 0px;
+  position: absolute;
+}
+
+.no_margin_2kLZ4 {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.content {
+  width: 1920px;
+  height: 3817px;
+}
+
+.content-title {
+  height: 84px;
+  font-family: Silom;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #5b4016;
+  padding-top: 137px;
+}
+
+.content-chain {
+  height: 56px;
+  font-family: Silom;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #5b4016;
+  padding-top: 34px;
+}
+
+.start_button_font {
+  width: 100px;
+  height: 70px;
+  font-size: 30px;
+  display: inline-block;
+  border-radius: 43px;
+  background-color: #efad3b;
+  color: #ffffff;
+  text-align: center;
+  line-height: 70px;
+}
+
+#mail-icon {
+  width: 60%;
+  height: 60%;
+}
+
+#fb-icon {
+  width: 60%;
+  height: 60%;
+}
+
+#footer-block {
+  width: 100%;
+  background-color: #efad3b;
+  padding: 30px 0 30px 0;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-left-block {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-right: 200px;
+}
+
+#footer-right-block {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#footer-left-mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#footer-right-fb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
