@@ -6,7 +6,7 @@
     </div>
     <div>
       <div class="content-style">
-        <p class="text-chinese">
+        <p class="">
           隱私政策
           <br>
           <br>

@@ -14,6 +14,11 @@
   src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/font/HelveticaNeue-Thin.otf');
+}
+
 .text-chinese {
   font-family: 'Font-Chinese';
   font-weight: bold;
@@ -38,6 +43,7 @@
   margin-top: 91px;
   text-align: left;
   white-space: normal;
+  font-family: 'HelveticaNeue';
 }
 
 .p1 {
