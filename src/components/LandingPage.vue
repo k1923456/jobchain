@@ -103,6 +103,7 @@
     </div>
 
     <div id='footer-block'>
+
       <div id='footer-left-block'>
         <div>
           <router-link
@@ -116,6 +117,7 @@
             href='mailto:Jobchain2019@gmail.com'
           >/ 聯絡我們</a>
         </div>
+
         <div id='footer-left-mail'>
           <div>
             <a
@@ -133,6 +135,7 @@
             />
           </a>
         </div>
+        
       </div>
 
       <div id='footer-right-block'>
