@@ -1,7 +1,7 @@
 <template>
   <div id='landing-page'>
     <div id='navbar-block'>
-      <span class='text-english g-font-size'>Jobchain </span><span class='text-chinese g-font-size'>跨界人才交流計畫</span>
+      <span class='text-english g-font-size'>Jobchain </span><span class='text-chinese g-font-size'>跨業人才交流計畫</span>
     </div>
 
     <div>
@@ -135,14 +135,14 @@
             />
           </a>
         </div>
-        
+
       </div>
 
       <div id='footer-right-block'>
         <div>
           <a
             class='text-chinese'
-            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            href='https://www.facebook.com/groups/jobchain.tw/'
             target='_blank'
           >/ 加入<span class='text-english'>VIP</span>社團</a>
         </div>
@@ -151,12 +151,12 @@
           <div>
             <a
               class='text-chinese'
-              href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+              href='https://www.facebook.com/groups/jobchain.tw/'
               target='_blank'
             ><span class='text-english'>Jobchain</span>跨業人才交流平台 / </a>
           </div>
           <a
-            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            href='https://www.facebook.com/groups/jobchain.tw/'
             target='_blank'
           >
             <img

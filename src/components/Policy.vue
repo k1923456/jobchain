@@ -2,7 +2,7 @@
   <div id="policy">
     <div id="navbar-block">
       <span class="text-english g-font-size">Jobchain</span>
-      <span class="text-chinese g-font-size">跨界人才交流計畫</span>
+      <span class="text-chinese g-font-size">跨業人才交流計畫</span>
     </div>
     <div>
       <div class="content-style">
@@ -107,7 +107,7 @@
         <div>
           <a
             class="text-chinese"
-            href="https://www.facebook.com/groups/jobchain/?ref=bookmarks"
+            href="https://www.facebook.com/groups/jobchain.tw/"
             target="_blank"
           >
             / 加入
@@ -119,13 +119,13 @@
           <div>
             <a
               class="text-chinese"
-              href="https://www.facebook.com/groups/jobchain/?ref=bookmarks"
+              href="https://www.facebook.com/groups/jobchain.tw/"
               target="_blank"
             >
               <span class="text-english">Jobchain</span>跨業人才交流平台 /
             </a>
           </div>
-          <a href="https://www.facebook.com/groups/jobchain/?ref=bookmarks" target="_blank">
+          <a href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
             <img id="fb-icon" src="@/assets/svg/bnt_footer_icon_fbgroup_normal.svg">
           </a>
         </div>
