@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Font-English';
   src: url('../assets/font/English/silom-webfont.woff2');
@@ -13,6 +12,11 @@
 @font-face {
   font-family: 'Font-Chinese';
   src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/font/HelveticaNeue-Thin.otf');
 }
 
 .text-chinese {
@@ -33,66 +37,24 @@
   font-size: 40px;
 }
 
-.header {
+.content-style {
   width: 100%;
-  background-color: #efad3b;
-}
-
-.headtitle {
-  width: 615px;
-  height: 56px;
-  font-family: Silom;
-  font-size: 40px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 4px;
+  max-width: 1920px;
+  margin-top: 91px;
   text-align: left;
-  color: #5b4016;
-  padding-right: 653px;
-  padding-left: 653px;
-  padding-top: 0px;
-  position: absolute;
+  white-space: normal;
+  font-family: 'HelveticaNeue';
 }
 
-.no_margin_2kLZ4 {
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
+.p1 {
+  word-wrap: break-word;
 }
 
-.content {
-  width: 1920px;
-  height: 3817px;
-}
-
-.content-title {
-  height: 84px;
-  font-family: Silom;
-  font-size: 60px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 6px;
-  text-align: center;
-  color: #5b4016;
-  padding-top: 137px;
-}
-
-.content-chain {
-  height: 56px;
-  font-family: Silom;
-  font-size: 40px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.28;
-  letter-spacing: 4px;
-  text-align: center;
-  color: #5b4016;
-  padding-top: 34px;
+.start_button {
+  margin-top: 86.6px;
+  width: 142.6px;
+  height: 65.4px;
+  border-radius: 43px;
 }
 
 .start_button_font {
@@ -123,7 +85,7 @@
   padding: 30px 0 30px 0;
   margin-top: 70px;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   display: flex;
   justify-content: center;
 }
@@ -151,4 +113,87 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+@media screen and (max-width: 736px) {
+  #navbar-block {
+    width: 100%;
+    background-color: #efad3b;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .g-font-size {
+    font-size: 20px;
+  }
+  .content-style {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .start_button {
+    margin-top: 86.6px;
+    width: 142.6px;
+    height: 65.4px;
+    border-radius: 43px;
+  }
+  .start_button_font {
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 22px;
+    background-color: #efad3b;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+  }
+  #mail-icon {
+    width: 60%;
+    height: 60%;
+  }
+  #fb-icon {
+    width: 60%;
+    height: 60%;
+  }
+  #footer-block {
+    width: 100%;
+    background-color: #efad3b;
+    padding: 30px 0 30px 0;
+    margin-top: 40px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+  #footer-left-block {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+    margin-right: 0;
+  }
+  #footer-right-block {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  #footer-left-mail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #footer-right-fb {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  #mail-icon {
+    width: 40%;
+    height: 40%;
+  }
+  #fb-icon {
+    width: 40%;
+    height: 40%;
+  }
 }

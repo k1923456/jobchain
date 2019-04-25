@@ -1,7 +1,7 @@
 <template>
   <div id='landing-page'>
     <div id='navbar-block'>
-      <span class='text-english g-font-size'>Jobchain </span><span class='text-chinese g-font-size'>跨界人才交流計畫</span>
+      <span class='text-english g-font-size'>Jobchain </span><span class='text-chinese g-font-size'>跨業人才交流計畫</span>
     </div>
 
     <div>
@@ -26,7 +26,8 @@
       </div>
 
       <div id='top_svg_1'>
-        <img src='@/assets/svg/pic_landing_page_1.svg' />
+        <img src='@/assets/svg/pic_landing_page_1.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_1_small.svg' class='svg_small'/>
       </div>
 
       <hr class='left_hr' />
@@ -44,7 +45,8 @@
       </div>
 
       <div id='top_svg_2'>
-        <img src='@/assets/svg/pic_landing_page_2.svg' />
+        <img src='@/assets/svg/pic_landing_page_2.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_2_small.svg' class='svg_small'/>
       </div>
     </div>
 
@@ -62,7 +64,8 @@
       </div>
 
       <div id='top_svg_3'>
-        <img src='@/assets/svg/pic_landing_page_3.svg' />
+        <img src='@/assets/svg/pic_landing_page_3.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_3_small.svg' class='svg_small'/>
       </div>
     </div>
 
@@ -78,7 +81,8 @@
       </div>
 
       <div id='top_svg_4'>
-        <img src='@/assets/svg/pic_landing_page_4.svg' />
+        <img src='@/assets/svg/pic_landing_page_4.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_4_small.svg' class='svg_small'/>
       </div>
     </div>
 
@@ -103,6 +107,7 @@
     </div>
 
     <div id='footer-block'>
+
       <div id='footer-left-block'>
         <div>
           <router-link
@@ -116,6 +121,7 @@
             href='mailto:Jobchain2019@gmail.com'
           >/ 聯絡我們</a>
         </div>
+
         <div id='footer-left-mail'>
           <div>
             <a
@@ -133,13 +139,14 @@
             />
           </a>
         </div>
+
       </div>
 
       <div id='footer-right-block'>
         <div>
           <a
             class='text-chinese'
-            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            href='https://www.facebook.com/groups/jobchain.tw/'
             target='_blank'
           >/ 加入<span class='text-english'>VIP</span>社團</a>
         </div>
@@ -148,12 +155,12 @@
           <div>
             <a
               class='text-chinese'
-              href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+              href='https://www.facebook.com/groups/jobchain.tw/'
               target='_blank'
             ><span class='text-english'>Jobchain</span>跨業人才交流平台 / </a>
           </div>
           <a
-            href='https://www.facebook.com/groups/jobchain/?ref=bookmarks'
+            href='https://www.facebook.com/groups/jobchain.tw/'
             target='_blank'
           >
             <img
