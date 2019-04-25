@@ -26,7 +26,8 @@
       </div>
 
       <div id='top_svg_1'>
-        <img src='@/assets/svg/pic_landing_page_1.svg' />
+        <img src='@/assets/svg/pic_landing_page_1.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_1_small.svg' class='svg_small'/>
       </div>
 
       <hr class='left_hr' />
@@ -44,7 +45,8 @@
       </div>
 
       <div id='top_svg_2'>
-        <img src='@/assets/svg/pic_landing_page_2.svg' />
+        <img src='@/assets/svg/pic_landing_page_2.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_2_small.svg' class='svg_small'/>
       </div>
     </div>
 
@@ -62,7 +64,8 @@
       </div>
 
       <div id='top_svg_3'>
-        <img src='@/assets/svg/pic_landing_page_3.svg' />
+        <img src='@/assets/svg/pic_landing_page_3.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_3_small.svg' class='svg_small'/>
       </div>
     </div>
 
@@ -78,7 +81,8 @@
       </div>
 
       <div id='top_svg_4'>
-        <img src='@/assets/svg/pic_landing_page_4.svg' />
+        <img src='@/assets/svg/pic_landing_page_4.svg' class='svg_big'/>
+        <img src='@/assets/svg/pic_landing_page_4_small.svg' class='svg_small'/>
       </div>
     </div>
 
