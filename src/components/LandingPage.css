@@ -255,7 +255,7 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 736px) and (min-width: 569) {
+@media screen and (max-width: 415px) {
   #navbar-block {
     width: 100%;
     background-color: #efad3b;
@@ -364,14 +364,14 @@ a {
     margin-left: 3px;
   }
   .subtitle {
-    font-size: 5px;
+    font-size: 9px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #5b4016;
     display: block;
   }
   .subtext {
-    font-size: 4px;
+    font-size: 8px;
     font-weight: bold;
     color: #5b4016;
     display: inline;
@@ -456,8 +456,7 @@ a {
 }
 
 
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 321px) {
   #navbar-block {
     width: 100%;
     background-color: #efad3b;
