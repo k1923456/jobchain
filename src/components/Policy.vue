@@ -6,7 +6,7 @@
     </div>
     <div>
       <div class="content-style">
-        <p class="">
+        <p class="text-policy">
           隱私政策
           <br>
           <br>
@@ -84,48 +84,45 @@
       </router-link>
     </div>
 
-    <div id="footer-block">
-      <div id="footer-left-block">
+    <div id="div-footer">
+      <div id="div-footer-left">
         <div>
-          <router-link to="/policy" class="text-chinese">/ 隱私政策</router-link>
+          <router-link to="/policy" class="g-font-chinese">/ 隱私政策</router-link>
         </div>
 
         <div>
-          <a class="text-chinese" href="mailto:Jobchain2019@gmail.com">/ 聯絡我們</a>
+          <a class="g-font-chinese" href="mailto:Jobchain2019@gmail.com">/ 聯絡我們</a>
         </div>
-        <div id="footer-left-mail">
-          <div>
-            <a class="text-english" href="mailto:Jobchain2019@gmail.com">jobchain2019@gmail.com</a>
-          </div>
-          <a href="mailto:Jobchain2019@gmail.com" target="_blank">
+
+        <div id="div-mail">
+          <a
+            class="g-font-english text-link"
+            href="mailto:Jobchain2019@gmail.com"
+          >jobchain2019@gmail.com</a>
+          <a class="icon-link" href="mailto:Jobchain2019@gmail.com" target="_blank">
             <img id="mail-icon" src="@/assets/svg/btn_footer_icon_mail_normal.svg">
           </a>
         </div>
       </div>
 
-      <div id="footer-right-block">
+      <div id="div-footer-right">
         <div>
           <a
-            class="text-chinese"
+            class="g-font-chinese"
             href="https://www.facebook.com/groups/jobchain.tw/"
             target="_blank"
           >
             / 加入
-            <span class="text-english">VIP</span>社團
+            <span class="g-font-english">VIP</span>社團
           </a>
         </div>
 
-        <div id="footer-right-fb">
-          <div>
-            <a
-              class="text-chinese"
-              href="https://www.facebook.com/groups/jobchain.tw/"
-              target="_blank"
-            >
-              <span class="text-english">Jobchain</span>跨業人才交流平台 /
-            </a>
-          </div>
-          <a href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+        <div id="div-fb">
+          <a class="text-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+            <span class="g-font-english">Jobchain</span>
+            <span class="g-font-chinese">跨業人才交流平台 /</span>
+          </a>
+          <a class="icon-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
             <img id="fb-icon" src="@/assets/svg/bnt_footer_icon_fbgroup_normal.svg">
           </a>
         </div>
@@ -135,6 +132,9 @@
 </template>
 
 <style scoped src='./Policy.css'>
+</style>
+
+<style src='./Global.css'>
 </style>
 
 <script>
