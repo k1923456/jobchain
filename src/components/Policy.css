@@ -79,14 +79,12 @@
     align-items: center;
   }
   #div-footer-left {
-    border: 2px solid red;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
     margin-right: 20%;
   }
   #div-footer-right {
-    border: 2px solid red;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
@@ -174,13 +172,11 @@
     align-items: center;
   }
   #div-footer-left {
-    border: 2px solid red;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
   }
   #div-footer-right {
-    border: 2px solid red;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
