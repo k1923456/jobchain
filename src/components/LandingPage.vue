@@ -91,6 +91,7 @@
     </div>
 
     <div id="div-footer">
+
       <div id="div-footer-left">
         <div>
           <router-link to="/policy" class="g-font-chinese">/ 隱私政策</router-link>
@@ -111,7 +112,7 @@
         </div>
       </div>
 
-      <div id="footer-right-div">
+      <div id="div-footer-right">
         <div>
           <a
             class="g-font-chinese"
@@ -133,11 +134,16 @@
           </a>
         </div>
       </div>
+
     </div>
+    
   </div>
 </template>
 
-<style src='./LandingPage.css'>
+<style scoped src='./LandingPage.css'>
+</style>
+
+<style src='./Global.css'>
 </style>
 
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'>

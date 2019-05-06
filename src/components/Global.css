@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: #42b983;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Font-English';
+    src: url('../assets/font/English/silom-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'Font-Chinese';
+    src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+.g-font-english {
+    font-family: 'Font-English';
+    font-weight: normal;
+    color: #5b4016;
+    display: inline;
+}
+
+.g-font-chinese {
+    font-family: 'Font-Chinese';
+    font-weight: bold;
+    color: #5b4016;
+    white-space: wrap;
+    display: inline;
+}
