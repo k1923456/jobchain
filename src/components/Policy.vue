@@ -85,7 +85,6 @@
     </div>
 
     <div id="div-footer">
-
       <div id="div-footer-left">
         <div>
           <router-link to="/policy" class="g-font-chinese">/ 隱私政策</router-link>
@@ -128,9 +127,7 @@
           </a>
         </div>
       </div>
-
     </div>
-    
   </div>
 </template>
 
