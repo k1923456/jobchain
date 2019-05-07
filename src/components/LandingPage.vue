@@ -173,9 +173,6 @@ export default {
     return {
       msg: "Welcome to Your Vue.js App"
     };
-  },
-  head: {
-    meta: [{ name: "viewport", content: "width=device-width,initial-scale=1" }]
   }
 };
 </script>

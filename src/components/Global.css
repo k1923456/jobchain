@@ -12,10 +12,10 @@ a {
     src: url('../assets/font/English/silom-webfont.woff2');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Font-Chinese';
     src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
-}
+} */
 
 .g-font-english {
     font-family: 'Font-English';
@@ -25,7 +25,8 @@ a {
 }
 
 .g-font-chinese {
-    font-family: 'Font-Chinese';
+    /* font-family: 'Font-Chinese'; */
+    font-family: 'Noto Sans TC', sans-serif;
     font-weight: bold;
     color: #5b4016;
     white-space: wrap;
