@@ -68,8 +68,8 @@
       <div class="div-left-text-right-svg">
         <div class="div-top-bottom-text">
           <span class="font-subtitle g-font-chinese">合作成果分享會</span>
-          <span class="font-subtext g-font-chinese">透過成果分享會，</span>
-          <span class="font-subtext g-font-chinese">讓您分享與跨業人才合作的專案成果。</span>
+          <span class="font-subtext g-font-chinese">透過成果分享會，讓您分享與跨業</span>
+          <span class="font-subtext g-font-chinese">人才合作的專案成果。</span>
         </div>
 
         <img src="@/assets/svg/pic_landing_page_4.svg" id="img-svg-4">
