@@ -23,6 +23,7 @@
           class="g-font-chinese"
           href="https://www.surveycake.com/s/BLggD"
           target="_blank"
+          onClick="ga('send', 'event', 'Link', 'Click', '開始交流被按下')"
         >開始交流</a>
       </div>
 
