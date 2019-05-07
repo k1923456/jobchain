@@ -1,8 +1,8 @@
 <template>
   <div id="policy">
     <div id="navbar-block">
-      <span class="text-english g-font-size">Jobchain</span>
-      <span class="text-chinese g-font-size">跨業人才交流計畫</span>
+      <span class="g-font-english g-font-size">Jobchain</span>
+      <span class="g-font-chinese g-font-size">跨業人才交流計畫</span>
     </div>
     <div>
       <div class="content-style">
@@ -80,7 +80,7 @@
         </p>
       </div>
       <router-link to="/" class="start_button">
-        <h1 class="start_button_font text-chinese">返回</h1>
+        <h1 class="start_button_font g-font-chinese">返回</h1>
       </router-link>
     </div>
 
@@ -118,11 +118,11 @@
         </div>
 
         <div id="div-fb">
-          <a class="text-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+          <a class="text-link" href="https://www.facebook.com/Jobchain%E8%B7%A8%E6%A5%AD%E4%BA%BA%E6%89%8D%E4%BA%A4%E6%B5%81%E5%B9%B3%E5%8F%B0-336001253717834/" target="_blank">
             <span class="g-font-english">Jobchain</span>
             <span class="g-font-chinese">跨業人才交流平台 /</span>
           </a>
-          <a class="icon-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+          <a class="icon-link" href="https://www.facebook.com/Jobchain%E8%B7%A8%E6%A5%AD%E4%BA%BA%E6%89%8D%E4%BA%A4%E6%B5%81%E5%B9%B3%E5%8F%B0-336001253717834/" target="_blank">
             <img id="fb-icon" src="@/assets/svg/bnt_footer_icon_fbgroup_normal.svg">
           </a>
         </div>

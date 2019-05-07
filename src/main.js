@@ -13,3 +13,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.prototype.$scrollToTop = () => window.scrollTo(0,0)

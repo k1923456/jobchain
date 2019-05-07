@@ -1,29 +1,6 @@
 @font-face {
-  font-family: 'Font-English';
-  src: url('../assets/font/English/silom-webfont.woff2');
-}
-
-.text-english {
-  font-family: 'Font-English';
-  font-weight: normal;
-  color: #5b4016;
-}
-
-@font-face {
-  font-family: 'Font-Chinese';
-  src: url('../assets/font/Chinese/Noto_Serif/NotoSerif-Bold.ttf');
-}
-
-@font-face {
   font-family: 'HelveticaNeue';
   src: url('../assets/font/HelveticaNeue-Thin.otf');
-}
-
-.text-chinese {
-  font-family: 'Font-Chinese';
-  font-weight: bold;
-  color: #5b4016;
-  white-space: nowrap;
 }
 
 #navbar-block {

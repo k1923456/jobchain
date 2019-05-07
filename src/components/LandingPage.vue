@@ -91,10 +91,9 @@
     </div>
 
     <div id="div-footer">
-
       <div id="div-footer-left">
         <div>
-          <router-link to="/policy" class="g-font-chinese">/ 隱私政策</router-link>
+          <router-link to="/policy" class="g-font-chinese" @click.native="$scrollToTop">/ 隱私政策</router-link>
         </div>
 
         <div>
@@ -125,18 +124,16 @@
         </div>
 
         <div id="div-fb">
-          <a class="text-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+          <a class="text-link" href="https://www.facebook.com/Jobchain%E8%B7%A8%E6%A5%AD%E4%BA%BA%E6%89%8D%E4%BA%A4%E6%B5%81%E5%B9%B3%E5%8F%B0-336001253717834/" target="_blank">
             <span class="g-font-english">Jobchain</span>
             <span class="g-font-chinese">跨業人才交流平台 /</span>
           </a>
-          <a class="icon-link" href="https://www.facebook.com/groups/jobchain.tw/" target="_blank">
+          <a class="icon-link" href="https://www.facebook.com/Jobchain%E8%B7%A8%E6%A5%AD%E4%BA%BA%E6%89%8D%E4%BA%A4%E6%B5%81%E5%B9%B3%E5%8F%B0-336001253717834/" target="_blank">
             <img id="fb-icon" src="@/assets/svg/bnt_footer_icon_fbgroup_normal.svg">
           </a>
         </div>
       </div>
-
     </div>
-    
   </div>
 </template>
 
